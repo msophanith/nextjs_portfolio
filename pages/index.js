@@ -14,13 +14,13 @@ const Home = () => {
     <Layout>
       <Header
         style={{
+          height: '100%',
           backgroundColor: '#FFF',
-          color: '#000',
           display: 'flex',
-          justifyContent: 'space-between',
+          justifyContent: 'center',
         }}
       >
-        <h1>Jay</h1>
+        <h2>Jay</h2>
       </Header>
       <Content
         style={{

@@ -22,11 +22,11 @@ const experience = {
 };
 
 const education = {
-  ITC: 'Institute de Technologie du Cambodege.',
+  ITC: 'Institute de Technologie du Cambodege. Cambodia',
   DEG_ITC: 'Foundation Year of Engineering.',
-  RMU: 'Rajamangala University of Technology.',
+  RMU: 'Rajamangala University of Technology. Thailand',
   DEG_RMU: 'Thai Language',
-  RSU: 'Rangsit University.',
+  RSU: 'Rangsit University. Thailand',
   DEG_RSU: 'BSc. Information Technology.',
 };
 
