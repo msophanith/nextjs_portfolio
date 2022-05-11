@@ -2,6 +2,7 @@ import { Row } from 'antd';
 import { Layout } from 'antd';
 import { HeartFilled } from '@ant-design/icons';
 import { Divider } from 'antd';
+import { Helmet } from 'react-helmet';
 import About from '../section/about';
 import Experience from '../section/experience';
 import Education from '../section/education';
@@ -12,6 +13,10 @@ const Home = () => {
   const { Header, Footer, Content } = Layout;
   return (
     <Layout>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>Jay - Portfolio</title>
+      </Helmet>
       <Header
         style={{
           height: '100%',
@@ -21,6 +26,7 @@ const Home = () => {
         }}
       >
         <h2>Jay</h2>
+        <p>Sophanith MEY</p>
       </Header>
       <Content
         style={{
@@ -38,7 +44,7 @@ const Home = () => {
             </Divider>
             <Experience />
             <Divider orientation="left" plain>
-              <h1>Education</h1>
+              <h1>Educations</h1>
             </Divider>
             <Education />
             <Divider orientation="left" plain>
