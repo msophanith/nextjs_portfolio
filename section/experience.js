@@ -14,7 +14,7 @@ const Experience = () => {
           {exp.yes_web}
           <span> From {exp.yes_year}</span>
         </li>
-        <li style={{ lineHeight: 1.7, padding: '10px 0' }}>
+        <li style={{ lineHeight: 1.7 }}>
           {exp.pim_click}
           <span> From {exp.pim_year}</span>
         </li>

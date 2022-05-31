@@ -12,7 +12,7 @@ const Award = () => {
         <li style={{ lineHeight: 1.7, padding: '10px 0' }}>
           {awd.KH}: {awd.TYPE_RUPP}
         </li>
-        <li style={{ lineHeight: 1.7, padding: '10px 0' }}>
+        <li style={{ lineHeight: 1.7 }}>
           {awd.TH}: {awd.TYPE_RSU}
         </li>
       </ul>
