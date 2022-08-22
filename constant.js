@@ -19,6 +19,15 @@ const experience = {
   yes_year: 'June 2021 - September 2021',
   pim_click: 'Frontend Developer Intern at Pimclick Co., Ltd. ',
   pim_year: 'Jan 2021 - May 2021',
+  sabay_name: 'Sabay Digital Corp.',
+  yes: 'Yes! Web Design Studio.',
+  pimClick: 'Pimclick Co., Ltd.',
+};
+
+const work_links = {
+  sabay_url: 'https://sabay.com/',
+  yes_uel: 'https://yeswebdesignstudio.com/',
+  pimclicK_url: 'https://www.pimclick.com/',
 };
 
 const education = {
@@ -48,6 +57,7 @@ const Constants = {
   award,
   links,
   favicon,
+  work_links,
 };
 
 export default Constants;
