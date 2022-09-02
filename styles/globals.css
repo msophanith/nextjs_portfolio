@@ -38,3 +38,21 @@ a:hover {
     max-width: 430px;
   }
 }
+
+.progress-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 8px;
+  background: linear-gradient(
+    to right,
+    #051937,
+    #3f245d,
+    #881c6c,
+    #cd005d,
+    #fc3131
+  );
+  transform-origin: 0%;
+  z-index: 99;
+}
