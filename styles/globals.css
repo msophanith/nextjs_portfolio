@@ -56,3 +56,7 @@ a:hover {
   transform-origin: 0%;
   z-index: 99;
 }
+
+.ant-layout-footer {
+  background-color: #fff !important;
+}
