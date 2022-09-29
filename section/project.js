@@ -33,7 +33,7 @@ const Project = () => (
               <Image
                 style={{ padding: '5px 10px' }}
                 width={200}
-                src="https://msphanith.github.io/myblog/assets/img/portfolio/NSIS.png"
+                src="../assets/img/NSIS.png"
               />
             </div>
           </Col>
