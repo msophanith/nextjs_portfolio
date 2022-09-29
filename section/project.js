@@ -1,6 +1,7 @@
 import { Tabs } from 'antd';
 import { CodeSandboxOutlined, AppstoreAddOutlined } from '@ant-design/icons';
 import { Image } from 'antd';
+import nsis from '../assets/img/NSIS.png';
 
 const { TabPane } = Tabs;
 
@@ -16,11 +17,7 @@ const Project = () => (
       key="1"
     >
       <Image.PreviewGroup>
-        <Image
-          style={{ padding: '5px 10px' }}
-          width={200}
-          src="https://msphanith.github.io/myblog/assets/img/portfolio/NSIS.png"
-        />
+        <Image style={{ padding: '5px 10px' }} width={200} src={nsis} />
         <Image
           style={{ padding: '5px 10px' }}
           width={200}
