@@ -4,6 +4,8 @@ const links = {
   INSTA: 'https://www.instagram.com/?hl=en',
   LINKEDIN: 'https://www.linkedin.com/in/msphanith/',
   EMAIL: 'mailto:meysophanith@yahoo.com',
+  PROJECTS:
+    'https://www.canva.com/design/DAFNlijpeeI/67ehvnmGYZycAWlHwq5o2Q/view?utm_content=DAFNlijpeeI&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton',
 };
 
 const about = {

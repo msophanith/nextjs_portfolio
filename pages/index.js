@@ -1,4 +1,4 @@
-import { Row } from 'antd';
+import { Row, Col } from 'antd';
 import { Layout } from 'antd';
 import { HeartFilled } from '@ant-design/icons';
 import { motion, useScroll, useSpring } from 'framer-motion';
@@ -42,8 +42,15 @@ const Home = () => {
             justifyContent: 'center',
           }}
         >
-          <Row>
-            <div className="content">
+          <Row
+            style={{
+              display: 'flex',
+              justifyContent: 'center',
+              margin: '0px auto',
+            }}
+          >
+            {/* <div className="content"> */}
+            <Col xs={18} sm={16} md={12} xl={12} lg={12}>
               <About />
               <Divider orientation="left" plain>
                 <h1>Experiences</h1>
@@ -65,14 +72,35 @@ const Home = () => {
                 <h1>Links</h1>
               </Divider>
               <Social />
-            </div>
+              {/* </div> */}
+            </Col>
           </Row>
         </Content>
-        <Footer style={{ display: 'flex', justifyContent: 'space-between' }}>
-          <span>
-            Made with <HeartFilled />
-          </span>
-          <span>{new Date().getFullYear()}, © Jay.</span>
+        <Footer>
+          <Row>
+            <Col
+              xs={20}
+              sm={20}
+              md={20}
+              xl={20}
+              lg={20}
+              style={{ color: '#FFF' }}
+            >
+              <span>
+                Made with <HeartFilled />
+              </span>
+            </Col>
+            <Col
+              xs={4}
+              sm={4}
+              md={4}
+              xl={4}
+              lg={4}
+              style={{ textAlign: 'end', color: '#FFF' }}
+            >
+              <span>{new Date().getFullYear()}, © Jay.</span>
+            </Col>
+          </Row>
         </Footer>
       </Layout>
     </>
