@@ -59,12 +59,5 @@ a:hover {
 }
 
 .ant-layout-footer {
-  background: linear-gradient(
-    to right,
-    #051937,
-    #3f245d,
-    #881c6c,
-    #cd005d,
-    #fc3131
-  ) !important;
+  background: #000 !important;
 }

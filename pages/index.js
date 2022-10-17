@@ -50,7 +50,7 @@ const Home = () => {
             }}
           >
             {/* <div className="content"> */}
-            <Col xs={18} sm={16} md={12} xl={12} lg={12}>
+            <Col xs={20} sm={16} md={12} xl={12} lg={12}>
               <About />
               <Divider orientation="left" plain>
                 <h1>Experiences</h1>
